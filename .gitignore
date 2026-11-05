@@ -1,0 +1,25 @@
+﻿# Local datasets and generated outputs
+datasets/
+outputs/
+
+# Python caches and environments
+__pycache__/
+*.pyc
+venv/
+venv_spark/
+.venv/
+
+# Temporary files and local databases
+spark_temp/
+*.duckdb
+*.log
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# IDE files
+.vscode/
+.idea/
